@@ -13,7 +13,7 @@
 # @raycast.author Manu Morante
 # @raycast.authorURL https://github.com/manumorante
 
-cd /Users/manu/projects/domestika
+cd /Users/manu/projects/work/domestika
 branch_name=$(git rev-parse --abbrev-ref HEAD)
 
 branch_name_splited=(${branch_name//-/ })
